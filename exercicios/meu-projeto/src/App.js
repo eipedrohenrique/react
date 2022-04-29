@@ -1,19 +1,16 @@
 import './App.css';
-import Helloword from './components/HelloWorld'
-import SayMyName from './components/SayMyName';
-import Pessoa from './components/Pessoa';
-import List from './components/List';
+import OutraLista from './components/OutraLista';
+
 
 function App() {
-  const nome='Maria'
+
+  const meusItens = ['React', 'Vue', 'Angular']
 
   return (
     <div className="App">
-      <Helloword />
-      <SayMyName nome="Pedro" />
-      <SayMyName nome={nome} />
-      <Pessoa nome="Pedro" idade="19" profissao="Programador" foto="https://via.placeholder.com/150" />
-      <List />
+      <h1>Renderização de Listas</h1>
+      <OutraLista itens={meusItens} />
+      <OutraLista itens={[]} />
     </div>
   )
 }
