@@ -21,6 +21,17 @@
       "cost": 0,
       "services": [],
       "id": 3
+    },
+    {
+      "name": "Teste 3",
+      "budget": "1800",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
     }
   ],
   "categories": [
