@@ -29,8 +29,14 @@
         "id": "3",
         "name": "Design"
       },
-      "cost": 0,
-      "services": [],
+      "cost": null,
+      "services": [
+        {
+          "name": "Isso",
+          "description": "100",
+          "id": "85639d8a-f09c-456d-910f-5cc0b8fd491b"
+        }
+      ],
       "id": 4
     }
   ],
