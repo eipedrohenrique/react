@@ -7,8 +7,14 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": null,
+      "services": [
+        {
+          "name": "aa",
+          "description": "99",
+          "id": "b2c9312f-a3e7-4964-8c08-b90035c83bb0"
+        }
+      ],
       "id": 2
     },
     {
