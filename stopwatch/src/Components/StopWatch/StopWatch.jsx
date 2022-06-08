@@ -17,7 +17,10 @@ function StopWatch() {
             }, 10);
         } else {
             clearInterval(interval);
-        };       
+        };
+        return () => {
+            clearInterval(interval);
+        };     
     }, [isActive, isPaused]);
 
     const handleStart = () => {
